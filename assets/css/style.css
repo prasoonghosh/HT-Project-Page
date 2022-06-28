@@ -1,13 +1,4 @@
-/**
-* Template Name: DevFolio - v4.7.1
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
     background-color: #f5f5f5;
     color: #4e4e4e;
@@ -78,6 +69,17 @@ a:hover {
     margin-right: 4px;
     overflow: hidden;
 }
+#upes{
+    height: 150px;
+    width: auto;
+}
+
+@media (max-width: 900px) {
+    #upes {
+        height: 100px;
+        width: auto;
+    }
+}
 
 .bg-image {
     background-repeat: no-repeat;
@@ -88,6 +90,13 @@ a:hover {
 @media (max-width: 1024px) {
     .bg-image {
         background-attachment: scroll;
+    }
+}
+@media (max-width: 900px) {
+    .bg-image{
+        background-attachment: scroll;
+        background: url("assets/img/hero.jpg"); height: 269px; width: 927px;
+        background-repeat: no-repeat;
     }
 }
 
