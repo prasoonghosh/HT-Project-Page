@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/HT-Project-Page.iml" filepath="$PROJECT_DIR$/.idea/HT-Project-Page.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../Study Materials/JavaScript Practice/.idea/JavaScript Practice.iml" filepath="$PROJECT_DIR$/../../Study Materials/JavaScript Practice/.idea/JavaScript Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../IBM Internship/Retail-Sales-Bot/.idea/Retail-Sales-Bot.iml" filepath="$PROJECT_DIR$/../../IBM Internship/Retail-Sales-Bot/.idea/Retail-Sales-Bot.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../../../Repositories/academy-classes.io/.idea/academy-classes.io.iml" filepath="$PROJECT_DIR$/../../../../Repositories/academy-classes.io/.idea/academy-classes.io.iml" />
     </modules>
   </component>
