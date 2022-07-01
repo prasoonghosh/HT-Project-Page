@@ -817,6 +817,12 @@ a:hover {
 .service-box .s-description {
     color: #4e4e4e;
 }
+.left-service {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 4rem;
+}
 
 /*--------------------------------------------------------------
 # Counter
