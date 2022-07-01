@@ -74,7 +74,7 @@ a:hover {
     width: auto;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) {
     #upes {
         height: 100px;
         width: auto;
@@ -87,16 +87,39 @@ a:hover {
     background-size: cover;
     background-position: center center;
 }
-@media (max-width: 1024px) {
+
+@media (min-width: 1024px) {
     .bg-image {
         background-attachment: scroll;
     }
 }
-@media (max-width: 900px) {
+@media (min-width: 900px) {
     .bg-image{
+        background-size: 1250px;
+        background: url("assets/img/hero.jpg") no-repeat scroll;
+    }
+}
+@media (max-width: 899px) {
+    .bg-image {
         background-attachment: scroll;
-        background: url("assets/img/hero.jpg"); height: 269px; width: 927px;
-        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 899px) {
+    .bg-image{
+        background-size: 800px;
+        background: url("assets/img/hero.jpg") no-repeat scroll;
+    }
+}
+
+@media (max-width: 500px) {
+    .bg-image {
+        background-attachment: scroll;
+    }
+}
+@media (max-width: 500px) {
+    .bg-image{
+        background-size: 450px;
+        background: url("assets/img/hero.jpg") no-repeat scroll;
     }
 }
 
